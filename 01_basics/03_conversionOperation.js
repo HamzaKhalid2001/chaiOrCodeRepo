@@ -10,13 +10,24 @@
 
 let score = undefined
 
-console.log(typeof(score));
+// console.log(typeof(score));
 
 let valueInNumber = Number(score);
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
 let isLoggedIn = 1;
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
+// ********************* Operations **************************
+
+let value = 3;
+let negValue = -value;
+console.log(negValue)
+
+// console.log("1" + 2) => 12 /* if string is first all the remaining will be treated as string*/
+// console.log("1" + 2 + 2); => 122 /* if string is first all the remaining will be treated as string*/
+// console.log(1 + "2"); => 12  /* if the string is in last, first the operation will be performed then it will get combined*/
+// console.log(1 + 2 + "2"); => 32 /* if the string is in last, first the operation will be performed then it will get combined*/
+
